@@ -31,27 +31,27 @@ Este projeto é um exemplo de um sistema de autenticação que utiliza OTP (One-
 ### Instalação
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
-   cd nome-do-repositorio
+      git clone https://github.com/seu-usuario/nome-do-repositorio.git
+      cd nome-do-repositorio
      ```
 2. Instale as dependências:
   ```bash
-  npm install
+     npm install
   ```
 
 3. Configure as variáveis de ambiente:
   ```bash
-  JWT_SECRET=sua_chave_secreta_jwt
-  MAILTRAP_TOKEN=seu_token_do_mailtrap
-  DATABASE_URL=sua_url_do_banco_de_dados
+     JWT_SECRET=sua_chave_secreta_jwt
+     MAILTRAP_TOKEN=seu_token_do_mailtrap
+     DATABASE_URL=sua_url_do_banco_de_dados
   ```
 
 4. Execute as migrações do Prisma:
   ```bash
-  npx prisma migrate dev --name init
+     npx prisma migrate dev --name init
   ```
 
 5. Inicie o servidor:
   ```bash
-  npm run dev
+     npm run dev
   ```
