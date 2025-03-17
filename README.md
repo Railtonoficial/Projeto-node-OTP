@@ -29,13 +29,11 @@ Este projeto é um exemplo de um sistema de autenticação que utiliza OTP (One-
 - Conta no Mailtrap para envio de e-mails
 
 ### Instalação
-
 1. Clone o repositório:
    ```bash
    git clone https://github.com/seu-usuario/nome-do-repositorio.git
    cd nome-do-repositorio
      ```
-
 2. Instale as dependências:
   ```bash
   npm install
