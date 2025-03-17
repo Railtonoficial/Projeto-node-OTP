@@ -34,7 +34,7 @@ Este projeto é um exemplo de um sistema de autenticação que utiliza OTP (One-
    ```bash
    git clone https://github.com/seu-usuario/nome-do-repositorio.git
    cd nome-do-repositorio
-  ```
+     ```
 
 2. Instale as dependências:
   ```bash
